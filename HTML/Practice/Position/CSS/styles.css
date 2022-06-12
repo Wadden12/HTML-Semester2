@@ -1,0 +1,41 @@
+.boxes {
+  border: 3px solid lightgray;
+  position: relative;
+  /* to use absolute value the container must be set to relative*/
+}
+.box {
+  width: 5rem;
+  height: 5rem;
+}
+.box-one {
+  background-color: gold;
+  position: fixed;
+  top: 0;
+  left: 2rem;
+  right: 2rem;
+  width: auto;
+}
+.box-two {
+  background-color: tomato;
+  position: absolute;
+  /* postion use relative to move boxes*/
+
+  right: 0;
+  bottom: 0;
+  left: 5rem;
+  top: 2rem;
+  z-index: 0;
+  /* z-index controls the zoom and to move elements infront and behind */
+}
+.box-three {
+  background-color: dodgerblue;
+}
+
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+    /* add as second class to fix float issues.
+    it is advised not to use float
+    used flexbox or Gred */
+}

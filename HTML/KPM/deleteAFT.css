@@ -1,0 +1,18 @@
+.card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+}
+
+.card-body {
+  grid-column: span 1fr, 1fr, 1fr;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  background: url("https://inaturalist-open-data.s3.amazonaws.com/photos/10177220/medium.jpg?1545693877");
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  height: 300px;
+  /* margin: auto 25%; */
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Lesson</title>
+    <link rel="stylesheet" href="CSS/normalize.css" />
+    <link rel="stylesheet" href="CSS/styles.css" />
+  </head>
+  <body>
+    <!-- <img
+      class="meal"
+      src="images/meal.jpg"
+      alt="bowl of salmon and curry"
+      srcset="images/meal.jpg 1x, images/meal@2x.jpg 2x, images/meal@3x.jpg 3x"
+    /> -->
+    <!-- <span class="bg-dishes"></span>
+    <span class="bg-landing"></span>
+    <span class="bg-rocketship"></span>
+    <span class="bg-saturn"></span>
+    <span class="bg-ufo"></span> -->
+    <!-- <img
+      class="meal"
+      src="images/meal.jpg"
+      alt="bowl of salmon and curry"
+      srcset="
+        images/meal.jpg     400w,
+        images/meal@2x.jpg  800w,
+        images/meal@3x.jpg 1200w
+      "
+      sizes="
+      (max-width: 500px) 100vw,
+      (max-width: 700px) 50vw,
+      33vw
+      "
+    /> -->
+    <!-- <picture>
+      <source />
+      <source srcset="images/meal.webp" type="image/webp" />
+      <source srcset="images/meal.jpg" type="image/jpg" />
+      <img src="images/meal.jpg" alt="a bowl of salmon and curry" />
+    </picture> -->
+    <picture>
+      <source media="(max-width: 500px  )" srcset="images/meal-cropped.jpg" />
+      <source media="(min-width:501px )" srcset="image/meal.jpg" />
+      <img src="images/meal.jpg" alt="a bowl of salmon curry" />
+    </picture>
+  </body>
+</html>
