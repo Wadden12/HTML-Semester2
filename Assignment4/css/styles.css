@@ -1,0 +1,192 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  line-height: 1.7;
+  font-size: 1.5rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+nav ul {
+  list-style: none;
+}
+
+.Div-Navtop {
+  background-color: #038203;
+  color: rgba(255, 255, 255, 0.8);
+  margin-top: 0;
+  width: 100%;
+  height: 24px;
+}
+nav ul,
+.Div-Navtop,
+.Div-NavBot,
+.container1 {
+  display: flex;
+  align-items: center;
+}
+
+.Div-Navtop,
+.Div-NavBot {
+  justify-content: space-around;
+}
+
+nav li {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+label img {
+  width: 24px;
+}
+.Div-Navtop li {
+  transition: 0.15s;
+}
+.Div-Navtop li:hover,
+.Focus {
+  font-weight: 700;
+  color: rgba(255, 255, 255, 1);
+}
+
+.Div-Navtop select {
+  color: #fff;
+  background: #038203;
+  outline: 0;
+}
+.Div-Navtop select,
+.Div-NavBot select {
+  border: none;
+}
+.Div-NavBot,
+.Div-NavBot select {
+  color: #038203;
+}
+
+.Div-NavBot img {
+  width: 4rem;
+}
+nav {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin-bottom: 5px;
+  border-width: 0.4rem;
+}
+.Div-NavBot ul {
+  margin-top: 8px;
+}
+.Div-NavBot li:hover,
+.Div-NavBot select:hover {
+  color: black;
+}
+.Div-Navtop li:hover,
+.Focus,
+.Div-NavBot li:hover,
+.Div-NavBot select:hover {
+  cursor: pointer;
+}
+.box2,
+nav {
+  border-right: solid 1px rgba(0, 0, 0, 0.2);
+}
+.fas {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+.container3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1,
+h2 {
+  color: #4d6c4f;
+  font-weight: 500;
+  font-size: 2.8rem;
+  text-align: center;
+}
+.box4 {
+  background-image: url(/images/TwoWomen.jpg);
+  background-repeat: repeat;
+  width: 100%;
+  height: 30rem;
+  background-position: center center;
+}
+
+.mask {
+  background: rgba(255, 255, 255, 0.95);
+  width: 100%;
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30%;
+  border-radius: 20rem;
+}
+.mask h2,
+.mask p,
+.mask button {
+  margin-top: 0pt;
+  align-self: flex-start;
+  margin-left: 5%;
+}
+
+.mask p {
+  width: 40ch;
+}
+.mask p,
+.box5 p {
+  font-size: 1.9rem;
+  color: rgba(0, 0, 0, 0.7);
+}
+.mask button,
+.box5 h3,
+h4,
+em,
+strong {
+  color: #038203;
+}
+
+.mask button {
+  width: 23rem;
+  height: 4rem;
+  border: solid 2px #038203;
+}
+
+.box5 h3,
+h4 {
+  font-size: 2.2rem;
+}
+
+.container4 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.box5 {
+  background: #f9fcf4;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+  padding: 10px;
+  width: 34rem;
+}
+
+h4 {
+  align-self: flex-start;
+  margin-left: 10px;
+}
+
+footer {
+  border-top: 6px solid #4d6c4f;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  font-size: 2.3rem;
+}
+
+a {
+  color: rgba(0, 0, 0, 0.7);
+}
